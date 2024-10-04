@@ -1,0 +1,145 @@
+.progress-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030; /* Place it above other content */
+}
+.progress-bar {
+    transition: width 0.2s ease-in-out;
+}
+
+.custom-list-group {
+    border: 1px solid #007bff;
+    border-radius: 13px;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.custom-list-group-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.custom-list-group-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.custom-list-group-item:hover {
+    background-color: #f1f1f1;
+}
+
+.custom-list-group-item label {
+    font-weight: 500;
+}
+
+.text-center mb-4 {
+    margin-left: 25px;
+}
+
+.contact-form {
+    background-color: #f8f9fa; /* Light background */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the form */
+    border: 1px solid #ddd; /* Light border */
+    max-width: 600px; /* Maximum width */
+    margin: 20px auto; /* Centering the form */
+    border-color: #007bff;
+}
+
+.contact-form .form-control {
+    border-radius: 8px; /* Rounded corners for input fields */
+    border: 1px solid #ced4da; /* Light border */
+    padding: 15px; /* Padding inside input fields */
+}
+
+.contact-form .form-label {
+    font-weight: 500; /* Slightly bold labels */
+}
+
+.contact-form .btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Rounded corners for button */
+    padding: 10px 20px; /* Padding inside button */
+    font-size: 16px; /* Increase font size */
+}
+
+.contact-form .btn-primary:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+}
+
+.contact-form .form-text {
+    color: #6c757d; /* Subtle text color */
+}
+
+.switch-container {
+    max-width: 600px;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-color: #007bff;
+}
+.switch-container .form-check-label {
+    font-weight: 500;
+}
+.switch-container .form-check-input {
+    margin-right: 10px;
+}
+
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Адаптация заголовков */
+h1, h2 {
+    font-size: 2rem;
+}
+
+/* Контейнер для формы */
+.contact-form {
+    margin: 20px auto;
+}
+
+/* Адаптация карточек и списка */
+.custom-list-group-item {
+    display: flex;
+    align-items: center;
+}
+
+/* Медиа-запросы */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .progress {
+        height: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    .form-check-label {
+        font-size: 0.9rem; /* Уменьшение размера шрифта */
+    }
+}

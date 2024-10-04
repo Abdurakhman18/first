@@ -1,0 +1,61 @@
+.navbar {
+    height: 65px; 
+}
+
+.accordion {
+    margin-top: 50px;
+}
+
+.progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    z-index: 1030; 
+}
+
+.list-group {
+    margin-top: 70px;
+}
+
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif; /* Задайте удобный шрифт */
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px; /* Добавьте отступы */
+}
+
+/* Медийные запросы */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Переключите навигацию на вертикальную */
+    }
+    
+    .accordion-body {
+        padding: 1rem; /* Увеличьте отступы для мобильных устройств */
+    }
+
+    .card {
+        margin-bottom: 20px; /* Добавьте отступы между карточками */
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.5rem; /* Уменьшите размер заголовка для маленьких экранов */
+    }
+
+    h2 {
+        font-size: 1.25rem; /* Уменьшите размер заголовка секции */
+    }
+
+    .list-group-item {
+        padding: 10px; /* Уменьшите отступы для элементов списка */
+    }
+}
