@@ -1,0 +1,54 @@
+.container my-5 {
+    max-width: 600px; /* Максимальная ширина контейнера */
+    margin: auto; /* Центрируем контейнер на странице */
+    padding: 20px; /* Отступы внутри контейнера */
+    background-color: #f9f9f9; /* Светлый фон для формы */
+    border-radius: 10px; /* Скругленные углы */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Тень для глубины */
+  }
+  
+  .contact-form {
+    padding: 20px; /* Отступы вокруг формы */
+  }
+  
+  .contact-form .form-control {
+    border: 1px solid #ced4da; /* Светлая рамка для полей ввода */
+    border-radius: 5px; /* Скругленные углы полей ввода */
+    transition: border-color 0.3s; /* Плавный переход для изменения цвета рамки */
+  }
+  
+  .contact-form .form-control:focus {
+    border-color: #007bff; /* Цвет рамки при фокусе */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Тень при фокусе */
+  }
+  
+  .contact-form .btn-primary {
+    background-color: #007bff; /* Основной цвет кнопки */
+    border: none; /* Убираем рамку у кнопки */
+    border-radius: 5px; /* Скругленные углы кнопки */
+    transition: background-color 0.3s; /* Плавный переход для изменения цвета кнопки */
+  }
+  
+  .contact-form .btn-primary:hover {
+    background-color: #0056b3; /* Темный цвет кнопки при наведении */
+  }
+  .btn-primary {
+    background-color: #007bff; /* Основной цвет кнопки */
+    color: white; /* Цвет текста на кнопке */
+    border: none; /* Убираем рамку */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    border-radius: 5px; /* Скругленные углы */
+    font-size: 16px; /* Размер шрифта */
+    transition: background-color 0.3s, transform 0.2s; /* Плавный переход для фона и эффекта нажатия */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Цвет кнопки при наведении */
+    transform: translateY(-2px); /* Эффект поднятия кнопки при наведении */
+  }
+  
+  .btn-primary:active {
+    background-color: #004085; /* Цвет кнопки при нажатии */
+    transform: translateY(0); /* Возвращаем кнопку в исходное положение */
+  }
+  

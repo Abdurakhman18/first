@@ -1,0 +1,243 @@
+.progress-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030; /* Place it above other content */
+}
+.progress-bar {
+    transition: width 0.2s ease-in-out;
+}
+
+.custom-list-group {
+    border: 1px solid #007bff;
+    border-radius: 13px;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.custom-list-group-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.custom-list-group-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.custom-list-group-item:hover {
+    background-color: #f1f1f1;
+}
+
+.custom-list-group-item label {
+    font-weight: 500;
+}
+
+.text-center mb-4 {
+    margin-left: 25px;
+}
+
+.contact-form {
+    background-color: #f8f9fa; /* Light background */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the form */
+    border: 1px solid #ddd; /* Light border */
+    max-width: 600px; /* Maximum width */
+    margin: 20px auto; /* Centering the form */
+    border-color: #007bff;
+}
+
+.contact-form .form-control {
+    border-radius: 8px; /* Rounded corners for input fields */
+    border: 1px solid #ced4da; /* Light border */
+    padding: 15px; /* Padding inside input fields */
+}
+
+.contact-form .form-label {
+    font-weight: 500; /* Slightly bold labels */
+}
+
+.contact-form .btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Rounded corners for button */
+    padding: 10px 20px; /* Padding inside button */
+    font-size: 16px; /* Increase font size */
+}
+
+.contact-form .btn-primary:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+}
+
+.contact-form .form-text {
+    color: #6c757d; /* Subtle text color */
+}
+
+.switch-container {
+    max-width: 600px;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-color: #007bff;
+}
+.switch-container .form-check-label {
+    font-weight: 500;
+}
+.switch-container .form-check-input {
+    margin-right: 10px;
+}
+
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Адаптация заголовков */
+h1, h2 {
+    font-size: 2rem;
+}
+
+/* Контейнер для формы */
+.contact-form {
+    margin: 20px auto;
+}
+
+/* Адаптация карточек и списка */
+.custom-list-group-item {
+    display: flex;
+    align-items: center;
+}
+
+/* Медиа-запросы */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .progress {
+        height: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    .form-check-label {
+        font-size: 0.9rem; /* Уменьшение размера шрифта */
+    }
+}
+
+.accordion-button {
+    background-color: #f0f8ff; /* Мягкий светло-голубой фон для кнопок */
+    color: #5a9bd6; /* Мягкий синий цвет текста */
+    font-weight: 500; /* Полужирный текст, чтобы он не был слишком тяжелым */
+    font-size: 16px; /* Средний размер шрифта для удобного чтения */
+    border-radius: 8px; /* Мягкие закругленные границы */
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: none;
+}
+
+.accordion-button:hover {
+    background-color: #d4e8f7
+}
+
+.card {
+    background-color: #fff;
+    border: none;
+    border-radius: 15px; /* Более плавные и заметные закругления */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Глубже и мягче */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Легкий подъем при наведении */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Более выраженная тень при наведении */
+}
+
+.card-body {
+    background: linear-gradient(135deg, #f0f8ff, #d4eaf7); /* Мягкий градиент для легкости */
+    padding: 20px;
+}
+
+.card-title {
+    color: #4a90e2; /* Яркий, но мягкий синий */
+    font-weight: 600;
+    font-size: 20px; /* Увеличенный шрифт для заголовка */
+}
+
+.card-text {
+    color: #444; /* Более выразительный текст */
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #4a90e2; /* Яркая, но не перенасыщенная кнопка */
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #357ab8; /* Немного темнее при наведении */
+}
+
+.list-group-item {
+    background-color: #f0f8ff; /* Мягкий светлый фон */
+    border: none;
+    border-radius: 10px; /* Закругленные углы */
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.list-group-item:hover {
+    background-color: #e0f2ff; /* Легкий светлый цвет при наведении */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Мягкая тень при наведении */
+}
+
+.list-group-item h5 {
+    font-weight: 600; /* Немного увеличенная насыщенность для заголовков */
+    font-size: 18px; /* Чуть больший шрифт для заголовков */
+    color: #4a90e2; /* Мягкий синий для текста */
+}
+
+.list-group-item p {
+    color: #444; /* Глубокий серый для основного текста */
+}
+
+.list-group-item small {
+    color: #888; /* Более мягкий оттенок для мелкого текста */
+}
+
+.list-group-item.active {
+    background-color: #4a90e2; /* Мягкий синий для активного элемента */
+    color: #fff; /* Белый цвет текста для активного элемента */
+    border: none;
+    border-radius: 10px;
+}
+
+.list-group-item.active h5, .list-group-item.active p, .list-group-item.active small {
+    color: #fff; /* Белый цвет для всех текстов в активном элементе */
+}
+
+.list-group-item.active:hover {
+    background-color: #3984d6; /* Чуть более темный синий при наведении */
+}
